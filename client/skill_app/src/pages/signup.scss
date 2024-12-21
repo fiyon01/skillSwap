@@ -1,0 +1,162 @@
+body{
+    min-height: 100vh;  /* Allows the container to expand if the content exceeds the viewport height */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;  /* Enables vertical scrolling when content overflows */
+  }
+
+
+.container {}
+   
+  
+  .signup-form {
+    border-radius: 8px;
+    height: 600px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Optionally set a max-width for better control */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+  
+  }
+  
+  h1 {
+    font-family: "Poppins", sans-serif;
+    color: #3498db;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  
+  p {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 15px 0 15px 0;
+
+    color: #333;
+  }
+  
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    padding: 15px 0 15px 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  
+    .icons {
+  
+      i{
+        font-size:18px;
+
+      }
+    }
+  
+    a {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ccc; 
+        text-align: center;
+        padding: 15px;
+        color:#333;
+  
+    }
+    a:hover{}
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px; /* Space between the text and the lines */
+  
+    hr {
+      border: 1px solid #ccc; /* Set color for the horizontal line */
+      width: 39%; /* Set the width of the lines */
+      margin: 10px 0 0 0;
+    }
+  
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      color: #333; /* Color of the text */
+      padding: 10px 0 0 0;
+    }
+  }
+  
+  .form-control {
+    padding: 20px;
+    input {
+      width: 100%;
+      display: block;
+      background: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 5px 0 5px 0;
+      margin-top: 10px;
+      padding-left: 5px;
+      color:#333;
+      font-family: "Inter", sans-serif;
+      font-weight: 100;
+    }
+  
+    input:focus {
+      outline: 1px solid #3498db;
+    }
+  
+    input {
+      caret-color: #3498db;
+    }
+  
+    input:nth-child(1) {
+      margin-top: 0;
+    }
+  
+    input::placeholder {
+      padding-left: 5px;
+    }
+  }
+  
+  button {
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 5px 0 5px 0;
+   
+  }
+  
+  button:hover {
+    background-color: #f39c12;
+    color: #fff;
+    transform:scale(1.1);
+  }
+  
+  .add-sec {
+    label {
+      /* Additional styles */
+    }
+  
+    p {
+      /* Additional styles */
+    }
+  
+    a {
+        color: #3498db;
+      /* Additional styles */
+    }
+  }
+  
